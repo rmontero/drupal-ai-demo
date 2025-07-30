@@ -1,7 +1,0 @@
-gemini_ai.settings:
-  path: '/admin/config/system/gemini-ai'
-  defaults:
-    _form: '\Drupal\gemini_ai\Form\GeminiAiSettingsForm'
-    _title: 'Gemini AI Settings'
-  requirements:
-    _permission: 'administer site configuration'
