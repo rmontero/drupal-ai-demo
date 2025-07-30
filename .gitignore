@@ -1,0 +1,61 @@
+# Composer dependencies
+/vendor/
+
+# Drupal generated files
+/web/sites/*/files/
+/web/sites/*/private/
+/web/sites/*/translations/
+/web/sites/*/settings.local.php
+/web/sites/*/services.local.yml
+
+# Drupal core (if using composer)
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+
+# Configuration files with sensitive data
+/web/sites/*/settings.php
+!/web/sites/default/default.settings.php
+
+# Files and directories to ignore
+.DS_Store
+.idea/
+*.log
+*.tmp
+*.swp
+*~
+.env
+.env.local
+
+# Drupal specific
+/web/.csslintrc
+/web/.eslintignore
+/web/.eslintrc.json
+/web/.ht.router.php
+/web/.htaccess
+/web/autoload.php
+/web/index.php
+/web/INSTALL.txt
+/web/README.md
+/web/robots.txt
+/web/update.php
+
+# Lando
+.lando.local.yml
+
+# Backup files
+*.bak
+*.backup
+*.sql
+
+# IDE files
+/.vscode/
+*.sublime-*
+.phpstorm.meta.php
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini

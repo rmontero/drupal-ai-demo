@@ -1,0 +1,4 @@
+name: drupal-ai
+recipe: drupal11
+config:
+  webroot: web
