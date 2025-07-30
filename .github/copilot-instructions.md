@@ -23,6 +23,9 @@ This is a Drupal 11 project with Google Gemini AI integration using the Drupal A
 ## Key Modules
 - **AI Module**: Core AI functionality and provider abstraction
 - **Key Module**: Secure API key storage and management
+- **Gemini Provider**: Official Google Gemini integration
+- **AI VDB Provider Pinecone**: Vector database integration
+- **AI Search**: AI-powered search capabilities
 - **Custom Modules**: Located in `web/modules/custom/`
 
 ## Common Commands
